@@ -10,3 +10,51 @@
   color: black;
   box-shadow:0px 2px 1px 1px rgba(69, 93, 74, 0.342);
 }
+
+.age_big_box{
+    background-color: #FAFAFA;
+    width: 450px;
+    height: 300px;
+    margin-left: 200px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.people_age{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.child{
+    width: 85px;
+}
+.img_box{
+    display: flex;
+    justify-content: center;
+}
+.adult{
+    width: 72px;
+}
+.adult_box{
+    margin-left: 50px;
+}
+.child_num{
+    color: #003789;
+}
+.adult_num{
+    color: #E10000;
+}
+.adult_time{
+    font-size: 55px;
+    color: #A120CE;
+}
+.child_time{
+    font-size: 55px;
+    color: #209ACE;
+}
+.people_age_bottom{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
