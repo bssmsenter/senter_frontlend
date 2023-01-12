@@ -2,6 +2,7 @@ import '../styles/time.css';
 import React from 'react';
 import Header from './header';
 import { BsFillPeopleFill } from "react-icons/bs";
+import Rechart from "./Rechart";
 
 function Time() {
     return (
@@ -24,7 +25,9 @@ function Time() {
                 </div>
 
                 <div className="graph">
-                    
+                    <div style={{ width: 1000, height: 200 ,margin: '70px 0px'}}>
+                        <Rechart />
+                    </div>
                 </div>
             </section>
         </div>
