@@ -15,6 +15,7 @@
 }
 
 .age_big_box{
+    font-family: 'Jeju Gothic', sans-serif;
     background-color: #FAFAFA;
     width: 450px;
     height: 300px;
@@ -24,13 +25,16 @@
 }
 
 .people_age{
+    font-family: 'Jeju Gothic', sans-serif;
     margin: 30px auto;
     display: flex;
     justify-content: center;
 }
 
 .child{
-    width: 85px;
+    margin-top: 25px;
+    width: 54px;
+    height: 80px;
 }
 .img_box{
     display: flex;

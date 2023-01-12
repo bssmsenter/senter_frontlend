@@ -9,6 +9,16 @@ import Rechart from "./Rechart";
 
 var people = 4;
 function Home(){
+    fetch('localhost:5050')
+    .then(res => res.json())
+    .then(res => {
+        if(res.success){
+            console.log('${res.user.name} 님 환영합니다');
+        }
+        else{
+            console.log('실패');
+        }
+    });
     return(
         <div className="Home">
             <Header/>
