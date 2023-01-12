@@ -27,7 +27,7 @@ a{
     border-radius: 15px;
     background-color: #ffffff;
     height: 250px;
-    width: 500px;
+    width: 100%;
 }
 .mainpeople h3{
     font-size: 25pt;
@@ -36,7 +36,9 @@ a{
     margin-left: 20px;
     text-decoration: underline;
 }
-
+.Home section{
+    width: 100%;
+}
 .mainpeople h2{
     position: absolute;
     margin-bottom: 0px;
@@ -52,3 +54,11 @@ a{
     margin-top: 0px;
 }
 
+.Home .age{
+    margin-top: 90px;
+    border-radius: 15px;
+    position: absolute;
+    background-color: white;
+    left: 1000px;
+    height: 250px;
+}

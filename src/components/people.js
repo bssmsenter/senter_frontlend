@@ -40,13 +40,14 @@ function People(){
             <h3 className="date">2023-01-07 15:00</h3>
             <h2 className="visitorc">방문자 수 : 194명<b id="dateset4">(-)</b></h2>
           </div>
-
-        <div className="bottom">
-          <div className="more">
-            <RxDoubleArrowDown size={"70"} color="gray" />
-          </div>
-        </div>
         </section>
+      <section>
+          <div className="bottom">
+              <div className="more">
+                <RxDoubleArrowDown size={"70"} color="gray" />
+              </div>
+            </div>
+      </section>
       </div>
     );
 }

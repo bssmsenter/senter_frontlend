@@ -15,11 +15,11 @@ function Home(){
                         <h1 className="countpeople">320명</h1>
                     </div>
                 </div>
-                <div className='mainse'>
-                    <div className="mainpeople">
+                <div className='age'>
+                    <div className="mainage">
                         <h3>현 방문자 수 .</h3>
                         <h2><BsFillPeopleFill/></h2>
-                        <h1 className="countpeople">320명</h1>
+                        <h1 className="countage">320명</h1>
                     </div>
                 </div>
             </section>
