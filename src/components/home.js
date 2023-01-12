@@ -7,6 +7,7 @@ import { MdEmojiPeople } from "react-icons/md";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import Rechart from "./Rechart";
 
+var people = 4;
 function Home(){
     return(
         <div className="Home">
@@ -16,7 +17,7 @@ function Home(){
                     <div className="mainpeople">
                         <h3>현 방문자 수 </h3>
                         <h2><BsFillPeopleFill/></h2>
-                        <h1 className="countpeople">320명</h1>
+                        <h1 className="countpeople">{people}명</h1>
                     </div>
                 </div>
                 <div className='mainage'>
