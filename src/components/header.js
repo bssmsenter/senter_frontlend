@@ -41,10 +41,12 @@ function Header() {
             </div>
             <div className="menulist ml4">
               <div className="menufi">
+              <a href="/age">
                 <div className="menulogo">
                   <BsPeopleFill />
                 </div>| 
                 <h4 className="menuft"> 나이대</h4>
+                </a>
               </div>
             </div>
           </div>
