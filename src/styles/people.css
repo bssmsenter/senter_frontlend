@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/earlyaccess/jejugothic.css');
+.people {
+  text-align: center;
+}
+
+.people .ml2 {
+  background-color: #00000011;
+  width: 95%;
+  color: white;
+  box-shadow:0px 2px 1px 1px rgba(69, 93, 74, 0.342);
+}
+
+.visitor_total {
+  position: absolute;
+  left: 350px;
+  top: 80px;
+  width: 75%;
+  height: 25%;
+  text-align: left;
+  background-color: #FAFAFA;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow:3px 3px 1px 1px rgba(69, 93, 74, 0.342);
+  color: black;
+}
+
+.visitor_total .visitor {
+  width: 100%;
+  height: 100%;
+  line-height: 200%;
+  margin: 75px 50px;
+}
+
+.visitor h3 {
+  color: black;
+  font-size: 30px;
+  font-family: 'Jeju Gothic', sans-serif;
+}
+
+.visitor h2 {
+  color: black;
+  font-size: 55px;
+  font-family: 'Jeju Gothic', sans-serif;
+}
+
+.visitor b {
+  color: blue;
+}
+
+.visitor_list {
+  position: absolute;
+  left: 350px;
+  top: 350px;
+  width: 75%;
+  height: 60%;
+  text-align: left;
+  background-color: #FAFAFA;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 1px 1px rgba(69, 93, 74, 0.342);
+  color: black;
+}
+
+.dateset {
+  width: 50%;
+  height: 100px;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 15px;
+  padding-top: 20px;
+  line-height: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+.design {
+  background: linear-gradient(to right bottom, white, #65c2e3);
+  width: 40px;
+  height: 90px;
+  top: 4.8px;
+  float: left;
+  margin-right: 30px;
+  display: inline;
+}
+
+.dateset h3 {
+  display: block;
+  color: black;
+  font-size: 22px;
+  margin: auto;
+  font-family: 'Jeju Gothic', sans-serif;
+}
+
+.dateset h2 {
+  display: block;
+  color: black;
+  font-size: 35px;
+  margin: auto;
+  font-family: 'Jeju Gothic', sans-serif;
+}
+
+.bottom {
+  position: relative;
+  width: 100%;
+}
+
+.more {
+  position: relative;
+  left: 770px;
+  top: -10px;
+  display: inline;
+}
+
+#dateset1 {
+  color: blue;
+}
+
+#dateset2 {
+  color: blue;
+}
+
+#dateset3 {
+  color: red;
+}
+
+#dateset4 {
+  
+}
+
+section * {
+  animation-name: shape;
+   animation-duration: 2s;
+   animation-iteration-count: 1;
+}
+
+@keyframes shape {
+   from {
+      opacity: 0%;
+   }
+
+   to {
+      opacity: 100%;
+   }
+}
