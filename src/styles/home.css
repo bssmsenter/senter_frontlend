@@ -164,9 +164,9 @@ a{
 }
 
 .timegraph{
-    margin-top: 20px;
+    margin-top: 0px;
     position: absolute;
-    top:50px;
+    top:0px;
     width: 1000; 
     height: 200;
 }

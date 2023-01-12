@@ -35,8 +35,8 @@ function Home(){
                     <div className="maintime-gra">
                         <h3>시간대</h3>
                         <h2 className="maintimelogo"><AiOutlineClockCircle/></h2>
-                        <div className="timegraph" >
-                            <Rechart/>
+                        <div style={{ width: 1000, height: 200 ,margin: '70px'}}>
+                            <Rechart />
                         </div>
                     </div>
                 </div>
