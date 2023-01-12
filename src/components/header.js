@@ -13,7 +13,7 @@ function Header() {
             <p>SENTER</p>
             <div className="menulist ml1">
               <div className="menufi">
-                <a href="./"  >
+                <a href="./">
                   <div className="menulogo">
                     <AiOutlineHome />
                   </div>|
@@ -26,17 +26,19 @@ function Header() {
                 <a href="./people">
                   <div className="menulogo">
                     <VscAccount />
-                  </div>| 
+                  </div>|
                   <h4 className="menuft"> 방문자 수</h4>
                 </a>
               </div>
             </div>
             <div className="menulist ml3">
               <div className="menufi">
-                <div className="menulogo">
-                  <BiTimeFive />
-                </div>| 
-                <h4 className="menuft"> 시간대</h4>
+                <a href="./time">
+                  <div className="menulogo">
+                   <BiTimeFive />
+                  </div>|
+                  <h4 className="menuft"> 시간대</h4>
+                </a>
               </div>
             </div>
             <div className="menulist ml4">
@@ -44,7 +46,7 @@ function Header() {
               <a href="/age">
                 <div className="menulogo">
                   <BsPeopleFill />
-                </div>| 
+                </div>|
                 <h4 className="menuft"> 나이대</h4>
                 </a>
               </div>

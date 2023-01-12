@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/earlyaccess/jejugothic.css');
+
+.time {
+  text-align: center;
+}
+
+.time .ml3 {
+  background-color: #00000011;
+  width: 95%;
+  box-shadow:0px 2px 1px 1px rgba(69, 93, 74, 0.342);
+}
+
+.time .ml3 a {
+  color: white;
+}
+
+.time_total {
+  position: absolute;
+  left: 350px;
+  width: 80%;
+  height: 100%;
+}
+
+.freq_t {
+  position: relative;
+  width: 450px;
+  height: 400px;
+  background-color: #FAFAFA;
+  margin-right: 60px;
+  top: 80px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 1px 1px rgba(69, 93, 74, 0.342);
+  color: black;
+}
+
+.rare_t {
+  position: relative;
+  width: 450px;
+  height: 400px;
+  background-color: #FAFAFA;
+  margin-right: 60px;
+  top: 80px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 1px 1px rgba(69, 93, 74, 0.342);
+  color: black;
+}
+
+.recomm_t {
+  position: relative;
+  width: 450px;
+  height: 400px;
+  background-color: #FAFAFA;
+  margin-right: 60px;
+  top: 80px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 1px 1px rgba(69, 93, 74, 0.342);
+  color: black;
+}
+
+.time h3 {
+  color: black;
+  font-size: 50pt;
+  font-family: 'Jeju Gothic', sans-serif;
+}
+
+.time h2 {
+  color: black;
+  font-size: 35pt;
+  font-family: 'Jeju Gothic', sans-serif;
+}
+
+.freq_t .freq_time {
+  color: #79CE20;
+}
+
+.rare_t .rare_time {
+  color: #209ACE;
+}
+
+.recomm_t .rec_time {
+  color: #A120CE;
+}
+
+.dateset {
+  position: relative;
+  width: 1470px;
+  height: 400px;
+  background-color: #FAFAFA;
+  margin-left: 115px;
+  top: 140px;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 1px 1px rgba(69, 93, 74, 0.342);
+  color: black;
+}
