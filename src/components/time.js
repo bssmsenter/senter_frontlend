@@ -23,7 +23,7 @@ function Time() {
                     <h3 className="rec_time">13:00</h3>
                 </div>
 
-                <div className="dateset">
+                <div className="graph">
                     
                 </div>
             </section>
